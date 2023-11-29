@@ -1,0 +1,15 @@
+
+
+
+Test suite can be run from maven commandline 
+To run the test use 
+mvn test
+
+Please make sure to add the respective mobile number to login(OTP limitations)
+
+To access the report please navigate to the project path and run allure serve
+
+Retry logic for failed test cases has been implemented.
+
+All the test cases are dependend on the login test case however I have not implemented such behaviour yet. 
+In real time I will surely implement that as per flow and requirements
