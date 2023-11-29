@@ -72,7 +72,7 @@ public class BuyPlanScreen extends BaseTest{
 		
 		wait.until(ExpectedConditions.elementToBeClickable(btnBuyNow)).click();
 		
-		String planName = wait.until(ExpectedConditions.visibilityOf(planNameTxt1)).getText();
+		String planName = wait.until(ExpectedConditions.refreshed(ExpectedConditions.visibilityOf(planNameTxt1))).getText();
         
         wait.until(ExpectedConditions.elementToBeClickable(btnBuyNow)).click();
         
@@ -100,7 +100,7 @@ public class BuyPlanScreen extends BaseTest{
 		
 		wait.until(ExpectedConditions.elementToBeClickable(btnBuyNow)).click();
 		
-        String planName = wait.until(ExpectedConditions.visibilityOf(planNameTxt2)).getText();
+		String planName = wait.until(ExpectedConditions.refreshed(ExpectedConditions.visibilityOf(planNameTxt2))).getText();
         
         wait.until(ExpectedConditions.elementToBeClickable(btnBuyNow)).click();
         
@@ -131,7 +131,7 @@ public class BuyPlanScreen extends BaseTest{
 		
 		wait.until(ExpectedConditions.elementToBeClickable(btnBuyNow)).click();
         
-		String planName = wait.until(ExpectedConditions.visibilityOf(planNameTxt3)).getText();
+		String planName = wait.until(ExpectedConditions.refreshed(ExpectedConditions.visibilityOf(planNameTxt3))).getText();
         
 		wait.until(ExpectedConditions.elementToBeClickable(btnBuyNow)).click();
         
