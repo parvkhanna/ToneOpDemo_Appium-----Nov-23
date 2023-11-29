@@ -6,5 +6,6 @@ To run the test use
 mvn test
 
 Please make sure to add the respective mobile number to login(OTP limitations)
+Make changes here ==> /ToneOpDemo/src/test/java/com/toneop/tests/DemoTest.java  Linde: 29 
 
 To access the report please navigate to the project path and run allure serve
